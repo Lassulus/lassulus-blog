@@ -18,6 +18,15 @@ feedConfiguration = FeedConfiguration
 --------------------------------------------------------------------------------
 main :: IO ()
 main = hakyll $ do
+
+    match "art/portraits/*" $ do
+        route   idRoute
+        compile copyFileCompiler
+
+    match "art/stuff/*" $ do
+        route   idRoute
+        compile copyFileCompiler
+
     match "images/*" $ do
         route   idRoute
         compile copyFileCompiler

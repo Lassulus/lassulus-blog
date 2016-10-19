@@ -4,40 +4,43 @@ title: Art
 
 some small portraits I have crafted for very cool people:
 
-![anna](/images/anna.jpeg)
+---
+
+![anna](/art/portraits/anna.jpeg)
 
 ---
 
-![melli](/images/melli.jpeg)
+![melli](/art/portraits/melli.jpeg)
 
 ---
 
-![lea](/images/lea.jpeg)
+![lea](/art/portraits/lea.jpeg)
 
 ---
 
-![marko](/images/marko.jpeg)
+![marko](/art/portraits/marko.jpeg)
 
 ---
 
-![christopher](/images/christopher.jpeg)
+![christopher](/art/portraits/christopher.jpeg)
 
 ---
 
-![jonathan](/images/jonathan.png)
+![jonathan](/art/portraits/jonathan.png)
 
 ---
 
-![jane](/images/jane.png)
+![jane](/art/portraits/jane.png)
 
 ---
 
-![lisa](/images/lisa.png)
+![lisa](/art/portraits/lisa.png)
 
 ---
 
-![domsen](/images/domsen.png)
+![domsen](/art/portraits/domsen.png)
 
 ---
 
-![der künstler](/images/selbstportrait.jpg)
+![der künstler](/art/portraits/selbstportrait.jpg)
+
