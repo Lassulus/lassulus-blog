@@ -44,6 +44,18 @@ If you want to have something drawn (like a flyer or a portrait) just message me
 
 ---
 
+![holle](/art/portraits/holle.png)
+
+---
+
+![locke](/art/portraits/locke.png)
+
+---
+
+![jule](/art/portraits/jule.png)
+
+---
+
 ![the artist](/art/portraits/selbstportrait.jpg)
 
 ---
