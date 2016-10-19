@@ -2,6 +2,17 @@
 {-# LANGUAGE OverloadedStrings #-}
 import           Data.Monoid (mappend)
 import           Hakyll
+--------------------------------------------------------------------------------
+
+feedConfiguration :: FeedConfiguration
+feedConfiguration = FeedConfiguration
+    { feedTitle       = "stuff"
+    , feedDescription = "This feed provides"
+    , feedAuthorName  = "lassulus"
+    , feedAuthorEmail = "feed@lassul.us"
+    , feedRoot        = "http://lassul.us"
+    }
+
 
 
 --------------------------------------------------------------------------------
@@ -63,6 +74,27 @@ main = hakyll $ do
 
     match "templates/*" $ compile templateBodyCompiler
 
+    create ["atom.xml"] $ do
+    route idRoute
+    compile $ do
+        let feedCtx = postCtx `mappend`
+                constField "description" "" `mappend`
+                constField "published" "1970-01-01" `mappend`
+                constField "updated" "1970-01-01"
+
+        posts <- loadAll "posts/*"
+        renderAtom feedConfiguration feedCtx posts
+
+    create ["rss.xml"] $ do
+    route idRoute
+    compile $ do
+        let feedCtx = postCtx `mappend`
+                constField "description" "" `mappend`
+                constField "published" "1970-01-01" `mappend`
+                constField "updated" "1970-01-01"
+
+        posts <- loadAll "posts/*"
+        renderRss feedConfiguration feedCtx posts
 
 --------------------------------------------------------------------------------
 postCtx :: Context String
