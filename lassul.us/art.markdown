@@ -46,3 +46,9 @@ If you want to have something drawn (like a flyer or a portrait) just message me
 
 ![der künstler](/art/portraits/selbstportrait.jpg)
 
+---
+---
+
+sometimes I'm also crafting flyers for parties:
+
+![goth party](/art/stuff/goth_party.jpg)
