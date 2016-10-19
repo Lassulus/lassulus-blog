@@ -1,4 +1,4 @@
-lassul.us/site:
+lassul.us/site: FORCE
 	ghc lassul.us/site.hs
 lassul.us/_site: FORCE
 	cd lassul.us; ./site clean; ./site build
