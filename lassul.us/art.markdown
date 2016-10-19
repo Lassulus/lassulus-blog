@@ -4,6 +4,8 @@ title: Art
 
 some small portraits I have crafted for very cool people:
 
+If you want to have something drawn (like a flyer or a portrait) just message me at art@lassul.us
+
 ---
 
 ![anna](/art/portraits/anna.jpeg)
