@@ -44,7 +44,7 @@ If you want to have something drawn (like a flyer or a portrait) just message me
 
 ---
 
-![der künstler](/art/portraits/selbstportrait.jpg)
+![the artist](/art/portraits/selbstportrait.jpg)
 
 ---
 
