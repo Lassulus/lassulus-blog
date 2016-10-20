@@ -39,7 +39,7 @@ main = hakyll $ do
         route   idRoute
         compile copyFileCompiler
 
-    match (fromList ["about.markdown", "art.markdown"]) $ do
+    match (fromList ["about.markdown", "art.markdown", "projects.markdown"]) $ do
         route   $ setExtension "html"
         compile $ pandocCompiler
             >>= loadAndApplyTemplate "templates/default.html" defaultContext
@@ -87,9 +87,7 @@ main = hakyll $ do
     route idRoute
     compile $ do
         let feedCtx = postCtx `mappend`
-                constField "description" "" `mappend`
-                constField "published" "1970-01-01" `mappend`
-                constField "updated" "1970-01-01"
+                constField "description" ""
 
         posts <- loadAll "posts/*"
         renderAtom feedConfiguration feedCtx posts
@@ -98,9 +96,7 @@ main = hakyll $ do
     route idRoute
     compile $ do
         let feedCtx = postCtx `mappend`
-                constField "description" "" `mappend`
-                constField "published" "1970-01-01" `mappend`
-                constField "updated" "1970-01-01"
+                constField "description" ""
 
         posts <- loadAll "posts/*"
         renderRss feedConfiguration feedCtx posts
@@ -109,4 +105,6 @@ main = hakyll $ do
 postCtx :: Context String
 postCtx =
     dateField "date" "%B %e, %Y" `mappend`
+    constField "published" "%B %e, %Y" `mappend`
+    constField "updated" "%B %e, %Y" `mappend`
     defaultContext
