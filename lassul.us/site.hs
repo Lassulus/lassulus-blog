@@ -39,6 +39,10 @@ main = hakyll $ do
         route   idRoute
         compile copyFileCompiler
 
+    match "robots.txt" $ do
+        route   idRoute
+        compile copyFileCompiler
+
     match (fromList ["about.markdown", "art.markdown", "projects.markdown"]) $ do
         route   $ setExtension "html"
         compile $ pandocCompiler
