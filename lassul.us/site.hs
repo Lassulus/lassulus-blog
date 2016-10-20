@@ -43,6 +43,10 @@ main = hakyll $ do
         route   idRoute
         compile copyFileCompiler
 
+    match "media/*" $ do
+        route   idRoute
+        compile copyFileCompiler
+
     match (fromList ["about.markdown", "art.markdown", "projects.markdown"]) $ do
         route   $ setExtension "html"
         compile $ pandocCompiler
