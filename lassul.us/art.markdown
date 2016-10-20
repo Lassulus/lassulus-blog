@@ -20,7 +20,7 @@ If you want to have something drawn (like a flyer or a portrait) just message me
 
 ---
 
-![marko](/art/portraits/marko.jpeg)
+![marko](/art/portraits/marko.png)
 
 ---
 
