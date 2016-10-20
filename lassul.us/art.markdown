@@ -56,6 +56,10 @@ If you want to have something drawn (like a flyer or a portrait) just message me
 
 ---
 
+![phil](/art/portraits/phil.png)
+
+---
+
 ![the artist](/art/portraits/selbstportrait.jpg)
 
 ---
