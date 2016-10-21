@@ -64,6 +64,10 @@ If you want to have something drawn (like a flyer or a portrait) just message me
 
 ---
 
+![nadine](/art/portraits/nadine.png)
+
+---
+
 ![the artist](/art/portraits/selbstportrait.jpg)
 
 ---
