@@ -68,6 +68,42 @@ If you want to have something drawn (like a flyer or a portrait) just message me
 
 ---
 
+![El Haebbedelus Giganticus](/art/portraits/haeb.png)
+
+---
+
+![aldi](/art/portraits/aldi.png)
+
+---
+
+![knolle](/art/portraits/knolle.png)
+
+---
+
+![goth](/art/portraits/goth.png)
+
+---
+
+![vero](/art/portraits/vero.png)
+
+---
+
+![kevin](/art/portraits/kevin.png)
+
+---
+
+![marcus](/art/portraits/marcus.png)
+
+---
+
+![adrian](/art/portraits/adrian.png)
+
+---
+
+![jan](/art/portraits/jan.png)
+
+---
+
 ![the artist](/art/portraits/selbstportrait.jpg)
 
 ---
