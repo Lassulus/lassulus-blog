@@ -104,6 +104,10 @@ If you want to have something drawn (like a flyer or a portrait) just message me
 
 ---
 
+![fabian](/art/portraits/fabian.png)
+
+---
+
 ![the artist](/art/portraits/selbstportrait.jpg)
 
 ---
