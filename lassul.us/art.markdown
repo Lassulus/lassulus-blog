@@ -108,6 +108,18 @@ If you want to have something drawn (like a flyer or a portrait) just message me
 
 ---
 
+![markus](/art/portraits/markus.png)
+
+---
+
+![mod](/art/portraits/mod.png)
+
+---
+
+![franz](/art/portraits/franz.png)
+
+---
+
 ![the artist](/art/portraits/selbstportrait.jpg)
 
 ---
@@ -117,3 +129,4 @@ If you want to have something drawn (like a flyer or a portrait) just message me
 sometimes I'm also crafting flyers for parties:
 
 ![goth party](/art/stuff/goth_party.jpg)
+![tim party](/art/stuff/tim_party.png)
